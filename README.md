@@ -12,6 +12,7 @@ This method focuses on classifying raster images using K-nearest neighbors (KNN)
 - **Feature Extraction**: It extracts pixel values from the raster data based on the geometries defined in the vector data.
 - **Classification**: A KNN classifier is trained on the extracted features to classify the raster pixels into different categories.
 - **Visualization**: The results are visualized by overlaying the classified raster data with the vector geometries.
+
 ![Digitized map of functional zoning from regulatory documentation for Vasilevsky Island PZZ](img/021.png)
 
 
@@ -23,8 +24,9 @@ This method expands the analysis capabilities by processing a bitmap image for v
 - **GeoTIFF Creation**: It generates a GeoTIFF file from the segmented image, preserving geographical information.
 - **Text Recognition**: Using EasyOCR, the toolkit extracts text from the processed images and converts it into geospatial data points.
 - **Land Use Assignment**: The recognized text is categorized into predefined land use types, enriching the dataset for further analysis.
-- 
+
 ![](img/5469847474198935614.png)
+
 ![](img/Vasikevskiy.png)
 
 ### Component 3: Method for determining the functional zoning of a territory and classifying zones according to the degree of urbanization
@@ -36,14 +38,19 @@ This method is based on data from the OSM to determine the functional purpose of
 - **Land Use Processing**: The toolkit filters out water bodies and digitizes functional zoning maps.
 - **Grid Generation**: It creates polytonal grids for undefined areas and assigns land use categories to grid cells.
 - **Urbanization Analysis**: The toolkit measures urban intensity and identifies spatial patterns, providing insights into urban development.
+
 ![](img/010.png)
+
 ![](img/09.png)
+
 ![](img/011-копия.png)
 
 ![](img/015.png)
+
 ![](img/016.png)
 
 ![](img/019.png)
+
 ![](img/18.png)
   
 ### Libraries Used in Each Code File
