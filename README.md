@@ -6,7 +6,7 @@ The Comprehensive Urban Analysis Toolkit is an integrated educational project de
 
 ### Component 1: Raster Image Classification
 
-This component focuses on classifying raster images using K-nearest neighbors (KNN) and vector data. Key steps include:
+This method focuses on classifying raster images using K-nearest neighbors (KNN) and vector data. Key steps include:
 
 - **Loading Raster and Vector Data**: The toolkit reads raster images (e.g., TIFF files) and vector data (e.g., GeoJSON files) to extract relevant features.
 - **Feature Extraction**: It extracts pixel values from the raster data based on the geometries defined in the vector data.
@@ -15,16 +15,16 @@ This component focuses on classifying raster images using K-nearest neighbors (K
 
 ### Component 2: Image Processing and Text Recognition
 
-This component enhances the analysis by processing images and recognizing text using EasyOCR. The main steps include:
+This method expands the analysis capabilities by processing a bitmap image for vectorization and text recognition using EasyOCR. This method is used to digitize functional zoning maps from the regulatory documentation of the Rules of Land Use and Development. The main steps include:
 
 - **Image Segmentation**: The toolkit applies KMeans clustering to segment the image into different regions based on color.
 - **GeoTIFF Creation**: It generates a GeoTIFF file from the segmented image, preserving geographical information.
 - **Text Recognition**: Using EasyOCR, the toolkit extracts text from the processed images and converts it into geospatial data points.
 - **Land Use Assignment**: The recognized text is categorized into predefined land use types, enriching the dataset for further analysis.
 
-### Component 3: Comprehensive Territorial Assessment
+### Component 3: Method for determining the functional zoning of a territory and classifying zones according to the degree of urbanization
 
-This component utilizes the outputs from the first two components to perform a detailed territorial assessment using OSM data. Key features include:
+This method is based on data from the OSM to determine the functional purpose of the territory and classify zones according to the degree of urbanization. If the data is missing or unreliable, it can be supplemented using the methods described above. Key features include:
 
 - **OSM Data Extraction**: The toolkit fetches building and land-use data from OpenStreetMap.
 - **Building Classification**: It classifies buildings into residential and non-residential categories based on OSM tags.
@@ -56,7 +56,7 @@ This component utilizes the outputs from the first two components to perform a d
 ```bash
 pip install opencv-python easyocr gdal geopandas sklearn shapely
 ```
-### Comprehensive Territorial Assessment
+### Method for determining the functional zoning of a territory and classifying zones according to the degree of urbanization
 - **Libraries Used**:
   - **OSMnx**: For retrieving, modeling, analyzing, and visualizing street networks from OpenStreetMap, enabling the analysis of urban infrastructure.
   - **Pandas**: For data manipulation and analysis, providing data structures like DataFrames for handling structured data efficiently.
