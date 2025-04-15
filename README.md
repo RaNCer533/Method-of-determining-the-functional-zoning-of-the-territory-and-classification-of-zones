@@ -12,6 +12,7 @@ This method focuses on classifying raster images using K-nearest neighbors (KNN)
 - **Feature Extraction**: It extracts pixel values from the raster data based on the geometries defined in the vector data.
 - **Classification**: A KNN classifier is trained on the extracted features to classify the raster pixels into different categories.
 - **Visualization**: The results are visualized by overlaying the classified raster data with the vector geometries.
+![Digitized map of functional zoning from regulatory documentation for Vasilevsky Island PZZ](img/021.png)
 
 ### Component 2: Image Processing and Text Recognition
 
