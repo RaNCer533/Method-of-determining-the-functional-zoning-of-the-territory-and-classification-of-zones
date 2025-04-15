@@ -31,7 +31,7 @@ This component utilizes the outputs from the first two components to perform a d
 - **Land Use Processing**: The toolkit filters out water bodies and digitizes functional zoning maps.
 - **Grid Generation**: It creates polytonal grids for undefined areas and assigns land use categories to grid cells.
 - **Urbanization Analysis**: The toolkit measures urban intensity and identifies spatial patterns, providing insights into urban development.
-- 
+  
 ### Libraries Used in Each Code File
 
 #### 1. Raster Image Classification Code
