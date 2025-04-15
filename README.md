@@ -43,7 +43,6 @@ Structure
 Examples directory: Jupyter Notebook file with source code with full pipeline
 Data directory: directory with main information sources for calculations
 Installation
-git clone https://github.com/Voronapxl/CTAMethod.git
 pip install -r requirements.txt
 
 Usage
