@@ -38,5 +38,7 @@ To set up the project, run the following command to install the necessary depend
 
 ```bash
 pip install -r requirements.txt
-Contributors
-Chichkov Egor Andreevich, IDU ITMO @RaNCer533 — methodology design, core implementation, initial codebase.
+```
+
+### Author
+-**Egor Andreevich Chichkov, a graduate student at the Institute of Design and Urban Studies at ITMO University**
