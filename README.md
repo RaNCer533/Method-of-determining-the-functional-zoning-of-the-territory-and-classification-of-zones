@@ -14,6 +14,7 @@ This method focuses on classifying raster images using K-nearest neighbors (KNN)
 - **Visualization**: The results are visualized by overlaying the classified raster data with the vector geometries.
 ![Digitized map of functional zoning from regulatory documentation for Vasilevsky Island PZZ](img/021.png)
 
+
 ### Component 2: Image Processing and Text Recognition
 
 This method expands the analysis capabilities by processing a bitmap image for vectorization and text recognition using EasyOCR. This method is used to digitize functional zoning maps from the regulatory documentation of the Rules of Land Use and Development. The main steps include:
