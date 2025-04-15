@@ -24,8 +24,8 @@ This method expands the analysis capabilities by processing a bitmap image for v
 - **Text Recognition**: Using EasyOCR, the toolkit extracts text from the processed images and converts it into geospatial data points.
 - **Land Use Assignment**: The recognized text is categorized into predefined land use types, enriching the dataset for further analysis.
 - 
-![Описание второго изображения](img/5469847474198935614.png)
-![Описание первого изображения](img/Vasikevskiy.png)
+![](img/5469847474198935614.png)
+![](img/Vasikevskiy.png)
 
 ### Component 3: Method for determining the functional zoning of a territory and classifying zones according to the degree of urbanization
 
@@ -36,15 +36,15 @@ This method is based on data from the OSM to determine the functional purpose of
 - **Land Use Processing**: The toolkit filters out water bodies and digitizes functional zoning maps.
 - **Grid Generation**: It creates polytonal grids for undefined areas and assigns land use categories to grid cells.
 - **Urbanization Analysis**: The toolkit measures urban intensity and identifies spatial patterns, providing insights into urban development.
-![Описание первого изображения](img/010.png)
-![Описание второго изображения](img/09.png)
-![Описание третьего изображения](img/011-копия.png)
+![](img/010.png)
+![](img/09.png)
+![](img/011-копия.png)
 
-![Описание первого изображения](img/015.png)
-![Описание второго изображения](img/016.png)
+![](img/015.png)
+![](img/016.png)
 
-![Описание третьего изображения](img/019.png)
-![Описание третьего изображения](img/18.png)
+![](img/019.png)
+![](img/18.png)
   
 ### Libraries Used in Each Code File
 
