@@ -41,9 +41,9 @@ This method is based on data from the OSM to determine the functional purpose of
 
 ![](img/010.png)
 
-![](img/09.png)
+![](img/009.png)
 
-![](img/011-копия.png)
+![](img/011 — копия.png)
 
 ![](img/015.png)
 
