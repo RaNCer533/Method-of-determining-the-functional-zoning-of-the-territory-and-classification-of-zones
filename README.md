@@ -47,23 +47,23 @@ This component utilizes the outputs from the first two components to perform a d
 ```
 
 ### Image Processing and Text Recognition Code
--**Libraries Used**:
-  -**OpenCV**: For image segmentation and processing.
-  -**EasyOCR**: For optical character recognition to extract text from images.
-  -**GDAL**: For creating GeoTIFF files and handling raster data.
-  -**Shapely**: For manipulation and analysis of planar geometric objects, allowing for the creation and manipulation of geometric shapes such as points, lines, and polygons.
+- **Libraries Used**:
+  - **OpenCV**: For image segmentation and processing.
+  - **EasyOCR**: For optical character recognition to extract text from images.
+  - **GDAL**: For creating GeoTIFF files and handling raster data.
+  - **Shapely**: For manipulation and analysis of planar geometric objects, allowing for the creation and manipulation of geometric shapes such as points, lines, and polygons.
 - **Installation Command**:
 ```bash
 pip install opencv-python easyocr gdal geopandas sklearn shapely
 ```
 ### Comprehensive Territorial Assessment
--**Libraries Used**:
-  -**OSMnx**: For retrieving, modeling, analyzing, and visualizing street networks from OpenStreetMap, enabling the analysis of urban infrastructure.
-  -**Pandas**: For data manipulation and analysis, providing data structures like DataFrames for handling structured data efficiently.
+- **Libraries Used**:
+  - **OSMnx**: For retrieving, modeling, analyzing, and visualizing street networks from OpenStreetMap, enabling the analysis of urban infrastructure.
+  - **Pandas**: For data manipulation and analysis, providing data structures like DataFrames for handling structured data efficiently.
 - **Installation Command**:
 ```bash
 pip install geopandas shapely pandas osmnx numpy
 ```
 
 ### Author
--**Egor Andreevich Chichkov, a graduate student at the Institute of Design and Urban Studies at ITMO University**
+- **Egor Andreevich Chichkov, a graduate student at the Institute of Design and Urban Studies at ITMO University**
