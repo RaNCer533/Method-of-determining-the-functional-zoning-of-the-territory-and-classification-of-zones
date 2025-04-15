@@ -31,13 +31,38 @@ This component utilizes the outputs from the first two components to perform a d
 - **Land Use Processing**: The toolkit filters out water bodies and digitizes functional zoning maps.
 - **Grid Generation**: It creates polytonal grids for undefined areas and assigns land use categories to grid cells.
 - **Urbanization Analysis**: The toolkit measures urban intensity and identifies spatial patterns, providing insights into urban development.
+- 
+### Libraries Used in Each Code File
 
-## Installation
-
-To set up the project, run the following command to install the necessary dependencies:
-
+#### 1. Raster Image Classification Code
+- **Libraries Used**:
+  - **GeoPandas**: For managing vector data and performing spatial analyses.
+  - **Rasterio**: For reading and writing geospatial raster data.
+  - **Scikit-learn**: For implementing the KNN classifier.
+  - **NumPy**: For numerical computing, providing support for large multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
+  
+- **Installation Command**:
 ```bash
-pip install -r requirements.txt
+  pip install geopandas rasterio scikit-learn numpy
+```
+
+### Image Processing and Text Recognition Code
+-**Libraries Used**:
+  -**OpenCV**: For image segmentation and processing.
+  -**EasyOCR**: For optical character recognition to extract text from images.
+  -**GDAL**: For creating GeoTIFF files and handling raster data.
+  -**Shapely**: For manipulation and analysis of planar geometric objects, allowing for the creation and manipulation of geometric shapes such as points, lines, and polygons.
+- **Installation Command**:
+```bash
+pip install opencv-python easyocr gdal geopandas sklearn shapely
+```
+### Comprehensive Territorial Assessment
+-**Libraries Used**:
+  -**OSMnx**: For retrieving, modeling, analyzing, and visualizing street networks from OpenStreetMap, enabling the analysis of urban infrastructure.
+  -**Pandas**: For data manipulation and analysis, providing data structures like DataFrames for handling structured data efficiently.
+- **Installation Command**:
+```bash
+pip install geopandas shapely pandas osmnx numpy
 ```
 
 ### Author
